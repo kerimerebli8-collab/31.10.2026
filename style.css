@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    width: 640px;
+    height: 90px;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    display: flex;
+    margin: 100px auto;
+    padding: 0;
+}
+
+.box {
+    width: 140px;
+    height: 60px;
+    padding: 15px 10px;
+    border-right: 1px solid #eeeeee;
+}
+
+.box:last-child {
+    border-right: none;
+}
+
+.ilk {
+    margin: 0;
+    padding: 0;
+}
+
+.ilk h4 {
+    font-size: 11px;
+    font-weight: normal;
+    
+}
+
+.ilk p {
+    font-size: 8px;
+    color: gray;
+}
